@@ -1,0 +1,9 @@
+---
+author: "Alexander Fottner"
+date: "20 Mai 2019"
+output: html_document
+---
+
+Hallo zusammen,
+
+mein Name ist Alexander Fottner und ich studiere zurzeit Statistik im Master an der Ludwig-Maximilians-Universität in München. Seit meinem 4.Semester in meinem Bachelor arbeite ich als Übungsleiter und Tutor für Statistik. Dabei konnte ich beobachten, dass das Thema Statistik bzw. im neuen Sprachgebrauch Data Science für viele Studenten und Menschen sehr schwer greifbar ist und fast mythisch wirkt. Da Data Science, bzw. der Teilbereich Machine Learning, aber in unserer modernen Welt immer wichtiger wird und an sehr vielen Stellen im Alltag bereits angewendet wird, will ich mit diesem Blog das Thema Data Science für alle etwas greifbarer machen und zeigen welche Schätze in Daten verborgen sein können und wie man diese Schätze bergen kann. Dieser Blog soll jedoch nicht nur allein stehen, sondern ist vielmehr dazu gedacht die Youtube Videos von dem ... Channel zu ergänzen und die Marterie, die dort manchmal nur etwas oberflächlich behandelt werden kann zu vertiefen und zu erweitern. Ich hoffe ihr als Leser habt Spaß an diesem Blog und könnt einige der hier vorgestellten Methoden auf euere Data Challenges anwenden! :)

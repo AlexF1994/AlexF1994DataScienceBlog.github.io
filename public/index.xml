@@ -21,12 +21,13 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title></title>
       <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+      <description>Hallo zusammen,
+mein Name ist Alexander Fottner und ich studiere zurzeit Statistik im Master an der Ludwig-Maximilians-Universität in München. Seit meinem 4.Semester in meinem Bachelor arbeite ich als Übungsleiter und Tutor für Statistik. Dabei konnte ich beobachten, dass das Thema Statistik bzw. im neuen Sprachgebrauch Data Science für viele Studenten und Menschen sehr schwer greifbar ist und fast mythisch wirkt. Da Data Science, bzw. der Teilbereich Machine Learning, aber in unserer modernen Welt immer wichtiger wird und an sehr vielen Stellen im Alltag bereits angewendet wird, will ich mit diesem Blog das Thema Data Science für alle etwas greifbarer machen und zeigen welche Schätze in Daten verborgen sein können und wie man diese Schätze bergen kann.</description>
     </item>
     
   </channel>
