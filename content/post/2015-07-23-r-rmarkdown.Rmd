@@ -57,7 +57,7 @@ Ich hoffe, dir hat dieser erste Blog Post gefallen und du schaust auch wieder f�
 * Was ist der Unterschied zwischen "*Shallow*" und "*Deep Learning*"?
 * Für welche Art von Daten ist welche der beiden Methoden geeigneter.
 
-Bis zum nächsten Mal dein Alex :)
+Bis zum nächsten Mal, dein Alex :)
 
 
 
