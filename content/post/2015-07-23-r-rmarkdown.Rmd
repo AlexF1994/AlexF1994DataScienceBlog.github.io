@@ -1,5 +1,5 @@
 ---
-title: "AI für alle"
+title: "KI für alle"
 author: "Alexander Fottner"
 date: 2019-05-18
 categories: ["R"]
@@ -8,43 +8,54 @@ categories: ["R"]
 Hallo zusammen,
 
 herzlich willkommen bei meinem ersten Data-Science Blog Post, es freut mich dass du vorbeischaust!  
-Dieser Blog ist, wie die Überschrift schon andeutet, dafür da, das Thema künstliche Intelligenz bzw. vor allem den Teilbereich Machine Learning zu de-mystifizieren und für jeden verständlich aufzubereiten. Um nun dieses scheinbar komplizierte Thema leicht verdaulich zu gestalten ist dieser Blog als Vertiefung bzw. Ergänzung zu einer YouTube-Serie mit dem Namen "AI für alle" gedacht. In dieser Serie führt dich Jonathan in kurzen Videos an das Thema Machine Learning heran. Falls dir die Videos gefallen und du dir denkst, das ist ja echt cool, darüber will ich etwas mehr wissen, dann freue mich wenn du den zu fast jedem Video begleitenden Blog-Post liest, indem ich etwas genauer auf die in den Videos behandelten Themen eingehe.
-Aber ich werde nicht nur Posts veröffentlichen, die sich auf Videos beziehen, sondern werde auch hin und wieder etwas komplexere Algorithmen oder neuere Entwicklungen vorstellen. Also lohnt es sich von Zeit zu Zeit immer wieder auf meiner Seite vorbeizuschauen ;).   
+Dieser Blog ist, wie die Überschrift schon andeutet, dafür da, das Thema künstliche Intelligenz bzw. vor allem den Teilbereich Machine Learning zu entmystifizieren und für jeden verständlich aufzubereiten. Um nun dieses scheinbar komplizierte Thema leicht verdaulich zu gestalten ist dieser Blog als Vertiefung bzw. Ergänzung zu einer YouTube-Serie mit dem Namen "KI für alle" gedacht. In dieser Serie führt dich Jonathan in kurzen Videos an das Thema Machine Learning heran. Falls dir die Videos gefallen und du dir denkst, "das ist ja echt cool, darüber will ich etwas mehr wissen"", dann freue mich wenn du den zu fast jedem Video begleitenden Blog-Post liest, indem ich etwas genauer auf die in den Videos behandelten Themen eingehe.
+Aber ich werde nicht nur Posts veröffentlichen, die sich auf Videos beziehen, sondern auch hin und wieder etwas komplexere Algorithmen oder neuere Entwicklungen vorstellen. Also lohnt es sich von Zeit zu Zeit immer wieder auf meiner Seite vorbeizuschauen ;).   
 So jetzt habe ich dich lange genug gelangweilt, deshalb auf gehts mit dem ersten Thema.
 
 # Was ist künstliche Intelligenz?
 
-Puh, da haben Jonathan und ich uns gleich eine der schwierigsten Fragen für den Anfang herausgesucht. Ich schätze wenn man 10 Experten diese Frage stellt bekommt man mindestens 12 unterschiedliche Antworten!  
+Puh, da haben Jonathan und ich uns gleich eine der schwierigsten Fragen für den Anfang herausgesucht. Ich schätze wenn man zehn Experten diese Frage stellt bekommt man mindestens zwölf unterschiedliche Antworten!  
 Aber ich lasse mich davon nicht entmutigen und versuche ein bisschen Struktur in den Begriff künstliche Intelligenz zu bringen, dabei folge ich überwiegend dem sehr guten Buch "Artificial Intelligence A Modern Approach" von Stuart Russel und Peter Norvig.  
-Im Großen und Ganzen kann man die verschiedenen Definitionen in vier große Teilbereiche gliedern, menschlich denken, menschlich handeln, rational denken und rational handeln. So dann wollen wir Mal diese Breiche etwas genauer betrachten.
+Im Großen und Ganzen kann man die verschiedenen Definitionen in vier große Teilbereiche gliedern:
+
+* menschlich denken
+* menschlich handeln
+* rational denken
+* rational handeln 
+
+So dann wollen wir Mal diese Bereiche etwas genauer betrachten.
 
 ### Menschlich Handeln
 
-Diese Definition geht zurück auf den sogenannten __Turing-Test__, der von dem berühmten Urvater der Informatik Alan Turing entwickelt wurde. Zusammengefasst besagt dieser Test, dass man von künstlicher Intelligenz sprechen kann, falls ein Mensch der einem Computer fragen stellt, nicht feststellen kann ob ihm eine echte Person oder ein Computer geantwortet hat. Ein Nachteil dieser Definition ist, dass es passieren kann, dass der Computer einen Menschen nur nachahmt, jedoch über keinerlei "Intelligenz" verfügt. Russel und Norvig beschreiben das ganz passend, indem sie anbringen, dass Menschen erst fliegen lernten als sie aufgehört hatten Vögel nachzuahmen und sich mit den Prinzipien dahinter, der Aerodynamik beschäftigten. Diese Analogie bringt uns zur zweiten Definition von KI.
+Diese Definition geht zurück auf den sogenannten __Turing-Test__, der von dem berühmten Urvater der Informatik Alan Turing entwickelt wurde. Zusammengefasst besagt dieser Test, dass man von künstlicher Intelligenz sprechen kann, falls ein Mensch der einem Computer Fragen stellt, nicht feststellen kann ob ihm eine echte Person oder ein Computer geantwortet hat. Ein Nachteil dieser Definition ist, dass es passieren kann, dass der Computer einen Menschen nur nachahmt, jedoch über keinerlei "Intelligenz" verfügt. Russel und Norvig beschreiben das ganz passend, indem sie anbringen, dass Menschen erst fliegen lernten, als sie aufgehört hatten Vögel nachzuahmen und sich mit den zugrundeliegenden Prinzipien der Aerodynamik beschäftigten. Diese Analogie bringt uns zur zweiten Definition von KI.
 
 ### Menschlich Denken
 
-Wie der Name schon sagt besagt diese Definition, dass ein Computer die Funktionsweise des menschlichen Gehirns nachahmen soll (im Endeffekt entspräche das dann sowas wie dem Terminator :-D). Der genauer Ablauf zur Konstruktion von KI wäre hier, dass wir zuerst verstehen wie das menschliche Gehirn funktioniert und dann diese Funktionsweise in ein Computerprogramm übersetzen. Dies zeigt somit gleich die Verbindung zwischen KI und der Neurowissenschaft. Aber wie wir alle wissen ist die Menschheit noch weit davon entfernt das Gehirn zu verstehen und wir müssten lange warten, bis wir wirklich von KI sprechen könnten, desweiteren sollten wir uns fragen ob wir wirklich einen Computer möchten, der denkt wie ein Mensch?  
+Wie der Name schon andeutet, besagt diese Definition, dass ein Computer die Funktionsweise des menschlichen Gehirns nachahmen soll (also quasi wie der Terminator :-D). Der genaue Ablauf zur Konstruktion von KI wäre hier, dass wir zuerst verstehen wie das menschliche Gehirn funktioniert und dann diese Funktionsweise in ein Computerprogramm übersetzen. Dies zeigt somit gleich die Verbindung zwischen KI und der Neurowissenschaft. Aber je nachdem wen man frägt, sind wir noch mehr oder weniger weit davon entfernt das Gehirn zu verstehen und wir müssten lange warten, bis wir wirklich von KI sprechen könnten. Des Weiteren sollten wir uns fragen ob wir wirklich einen Computer möchten, der denkt wie ein Mensch?  
 
 ### Rational Denken
 
-Die nächste Definition geht zurück auf die alten Griechen um Sokrates und den von Ihnen eingeführten Begriff der Logik, also der rationalen Schlussfolgerung. Für KI bedeutet das, dass wir von Intelligenz sprechen wenn der Computer für ein gegebenes Problem die "richtige" Schlussfolgerung zieht. Wie du hier sehen kannst, verwendet diese Definition jetzt nicht mehr explizit den Menschen als Referenz für Intelligenz sondern steht unter der Maxime der rationalität. Da sich Menschen nicht unbedingt immer rational verhalten (siehe zum Beispiel das sehr gute populärwissenschaftliche Buch "Schnelles und Langsames Denken" von Daniel Kahnemann), kann sich der Computer hier anders verhalten als ein Mensch in einer gegebenen Situation.
+Die nächste Definition geht zurück auf die alten Griechen um Sokrates und den von Ihnen eingeführten Begriff der Logik, also der rationalen Schlussfolgerung. Für KI bedeutet das, dass wir von Intelligenz sprechen wenn der Computer für ein gegebenes Problem die "richtige" Schlussfolgerung zieht. Wie du hier sehen kannst, verwendet diese Definition jetzt nicht mehr explizit den Menschen als Referenz für Intelligenz sondern steht unter der Maxime der Rationalität. Da sich Menschen nicht unbedingt immer rational verhalten (siehe zum Beispiel das sehr gute populärwissenschaftliche Buch "Schnelles und Langsames Denken" von Daniel Kahnemann), kann sich der Computer hier anders verhalten als ein Mensch in einer gegebenen Situation.
 
-Da die richtige Lösung zu kennen nicht unbedingt das gegebene Problem löst (Ich glaube diese Situation hatten wir alle schon oft genug :-D), kommen wir zur letzten Definition, die die Basis der meisten gängigen Machine Learning Algorithmen bildet.
+Da wir die richtige Lösung nicht nur kennen, sondern auch umsetzen möchten, kommen wir zur letzten Definition, die die Basis der meisten gängigen Machine Learning Algorithmen bildet.
 
 ### Rational Handeln
 
-Intelligenz bedeutet hier bei einem gegebenen Problem die optimale Handlung oder zumindest bestmögliche Handlung zur Lösung des Problems auch wirklich auszuführen. Dies beinhaltet natürlich oft rationales Denken, da man die Lösung erst kennen muss, bevor man sie ausführen kann. Diese Definition beinhaltet aber noch viel mehr! So zum Beispiel kann der Computer hier auch dann handeln, wenn mehrere Lösungen richtig erscheinen, oder es keine objektiv richtige Lösung gibt, jedoch eine Handlung so oder so ausgeführt werden muss.
+Intelligenz bedeutet hier bei einem gegebenen Problem die optimale Handlung oder zumindest bestmögliche Handlung zur Lösung des Problems auch wirklich auszuführen. Dies beinhaltet natürlich oft rationales Denken, da man die Lösung erst kennen muss, bevor man sie ausführen kann. Diese Definition beinhaltet aber noch viel mehr! So kann zum Beispiel der Computer hier auch dann handeln, wenn mehrere Lösungen richtig erscheinen, oder es keine objektiv richtige Lösung gibt, jedoch eine Handlung unbedingt ausgeführt werden muss.
 
 So nachdem du nun eine kleine Einführung in die verschiedenen Auffassungen von KI bekommen hast, gehe ich nun auf die nächste Frage ein, nämlich
 
 ## Was ist Machine Learning?
 
-Machine Learning ist, wie oben schon beschrieben, ein Teilbereich der KI, der die Generierung von Wissen aus Erfahrung bezeichnet. Genauer lernt ein Computer anhand von Beispielen (diese Beispiele sind die ominösen Daten mit denen Data Scientists sich immer beschäftigen) Muster in den "Daten" zu erlernen und dann anhand der entdeckten Muster Probleme zu lösen, man sagt auch zu "generalisieren". Um das ein bisschen greifbarer zu machen, komme ich hier auf das Beispiel mit den Bildern von Hunden und Katzen aus unserem Video zurück. Das Problem hier ist ganz klar: erkenne ob auf einem Bild ein Hund oder eine Katze abgebildet ist. Dafür geben wir dem Computer sogenannte Trainingsbilder, die schon richtig "klassifiziert" sind, d.h. Bilder die mit einer Überschrift (Label) versehen sind, die besagt ob auf dem Bild ein Hund oder eine Katze abgebildet ist. Anhand dieser Bilder und dem Wissen was jedes Bild zeigt, lernt der Computer eigenständig was "typische" Eigenschaften von Hunden und Katzen sind und kann dann anhand daran neue Bilder ohne Überschrift klassifizieren! Wichtig ist hierbei, dass hier kein Mensch dem Computer auf irgendeine Art und weise sagt auf was er genau achten soll, das einzige wofür der Mensch gebraucht wird, ist den Algorithmus zu starten!
+Machine Learning ist, wie oben schon beschrieben, ein Teilbereich der KI, der die maschinelle Generierung von Wissen aus Erfahrung bezeichnet. Genauer lernt ein Computer anhand von Beispielen (diese Beispiele sind die ominösen Daten mit denen Data Scientists sich immer beschäftigen) Muster in den "Daten" zu erlernen und dann anhand der entdeckten Muster Probleme zu lösen, man sagt auch zu "generalisieren". Um das ein bisschen greifbarer zu machen, komme ich hier auf das Beispiel mit den Bildern von Hunden und Katzen aus unserem Video zurück. Das Problem hier ist ganz klar: erkenne ob auf einem Bild ein Hund oder eine Katze abgebildet ist. Dafür geben wir dem Computer sogenannte Trainingsbilder, die schon richtig "klassifiziert" sind, d.h. Bilder die mit einer Überschrift (Label) versehen sind, die besagt ob auf dem Bild ein Hund oder eine Katze abgebildet ist. Anhand dieser Bilder und dem Wissen was jedes Bild zeigt, lernt der Computer eigenständig was "typische" Eigenschaften von Hunden und Katzen sind und kann dann anhand daran neue Bilder ohne Überschrift klassifizieren! Wichtig ist hierbei, dass hier kein Mensch dem Computer auf irgendeine Art und Weise sagt, auf was er genau achten soll. Das einzige wofür der Mensch gebraucht wird, ist den Algorithmus zu starten!
 
-Wenn dir das alles wie schwarze Magie vorkommt, dann kann ich dich beruhigen, genau dafür ist dieser Blog da, dieses Mysterium zu lösen! Du kannst dir Data Science ein bisschen wie Zauberei vorstellen, denn wenn man keine Ahnung hat was passiert mag es wie echte Magie aussehen, doch wenn du den Trick einmal durchschaut hast denkst du, wieso habe ich das nicht gleich gesehen? ;)
+Wenn dir das alles wie schwarze Magie vorkommt, dann kann ich dich beruhigen. Genau dafür ist dieser Blog da, dieses Mysterium zu lösen! Du kannst dir Data Science ein bisschen wie Zauberei vorstellen, denn wenn man keine Ahnung hat was passiert mag es wie echte Magie aussehen, doch wenn du den Trick einmal durchschaut hast denkst du, "wieso habe ich das nicht gleich gesehen?"" ;)
 
-Ich hoffe dir hat dieser erste Blog Post gefallen und du schaust auch wieder für den nächsten vorbei, bei dem ich mich mit den Fragen beschäftige, was sind Daten, was ist der Unterschied zwischen Shallow und Deep Learning und für welche Art von Daten ist welche der beiden Methoden geeigneter.
+Ich hoffe, dir hat dieser erste Blog Post gefallen und du schaust auch wieder für den nächsten vorbei, bei dem ich mich mit den Fragen beschäftige:
+
+* Was sind Daten?
+* Was ist der Unterschied zwischen "*Shallow*" und "*Deep Learning*"?
+* Für welche Art von Daten ist welche der beiden Methoden geeigneter.
 
 Bis zum nächsten Mal dein Alex :)
 

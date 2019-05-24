@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2019/05/18/ai-f%C3%BCr-alle/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -17,6 +12,11 @@
     <loc>/categories/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/05/18/ki-f%C3%BCr-alle/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
