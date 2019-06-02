@@ -1,5 +1,5 @@
 ---
-title: "KI für alle"
+title: "KI für alle: Was ist KI? (Ergänzung erstes Video)"
 author: "Alexander Fottner"
 date: 2019-05-18
 categories: ["R"]

@@ -6,17 +6,28 @@
     <description>Recent content in Posts on Alex&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 18 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>KI für alle</title>
-      <link>/2019/05/18/ki-f%C3%BCr-alle/</link>
+      <title>KI für alle: Was sind Daten?</title>
+      <link>/2019/06/02/ki-f%C3%BCr-alle-was-sind-daten/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/02/ki-f%C3%BCr-alle-was-sind-daten/</guid>
+      <description>Hallo zusammen,
+schön dass du auch zu meinem zweiten Blog Post vorbeischaust! Dieses Mal geht es um das Thema Daten und vor Allem, welche Arten von Daten gibt es und welche Eigenschaften können diese wiederum aufweisen? Danach werde ich noch kurz auf den Unterschied zwischen “Deep”- und “Shallow Learning” eingehen und erklären, welches von beiden für welche Art von Daten am geeignetsten ist.
+Jetzt fragst du dich sicher: “Wieso sollte ih mich mit etwas langweiligem wie Daten beschäftigen?</description>
+    </item>
+    
+    <item>
+      <title>KI für alle: Was ist KI? (Ergänzung erstes Video)</title>
+      <link>/2019/05/18/ki-f%C3%BCr-alle-was-ist-ki-erg%C3%A4nzung-erstes-video/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/05/18/ki-f%C3%BCr-alle/</guid>
+      <guid>/2019/05/18/ki-f%C3%BCr-alle-was-ist-ki-erg%C3%A4nzung-erstes-video/</guid>
       <description>Hallo zusammen,
 herzlich willkommen bei meinem ersten Data-Science Blog Post, es freut mich dass du vorbeischaust!
 Dieser Blog ist, wie die Überschrift schon andeutet, dafür da, das Thema künstliche Intelligenz bzw. vor allem den Teilbereich Machine Learning zu entmystifizieren und für jeden verständlich aufzubereiten. Um nun dieses scheinbar komplizierte Thema leicht verdaulich zu gestalten ist dieser Blog als Vertiefung bzw. Ergänzung zu einer YouTube-Serie mit dem Namen “KI für alle” gedacht.</description>
