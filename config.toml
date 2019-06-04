@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "de"
 title = "Alex's Data Science Blog"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-141455230-1"
 disqusShortname = "alexsdatascienceblog"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
