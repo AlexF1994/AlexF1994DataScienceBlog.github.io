@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://alexsdatascienceblog.netlify.com/"
 languageCode = "de"
 title = "Alex's Data Science Blog"
 theme = "hugo-lithium"
@@ -13,11 +13,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    name = "KI fü alle Channel"
+    url = "https://www.youtube.com/channel/UCMfQpMewAT6yrglbOxLPDxA"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Alex's Data Science Blog"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
