@@ -1,5 +1,5 @@
 baseurl = "https://alexsdatascienceblog.netlify.com/"
-languageCode = "de"
+languageCode = "de-DE"
 title = "Alex's Data Science Blog"
 theme = "hugo-lithium"
 googleAnalytics = "UA-141455230-1"

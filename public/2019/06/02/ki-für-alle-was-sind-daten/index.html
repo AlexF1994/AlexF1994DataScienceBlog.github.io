@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.5" />
+
+
+<title>KI für alle: Was sind Daten? - Alex&#39;s Data Science Blog</title>
+<meta property="og:title" content="KI für alle: Was sind Daten? - Alex&#39;s Data Science Blog">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/android-icon-144x144.png"
+         width="100"
+         height="100"
+         alt="android-icon-144x144">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://www.youtube.com/channel/UCMfQpMewAT6yrglbOxLPDxA">KI fü alle Channel</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">7 min read</span>
+    
+
+    <h1 class="article-title">KI für alle: Was sind Daten?</h1>
+
+    
+    <span class="article-date">2019-06-02</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>Hallo zusammen,</p>
+<p>schön dass du auch zu meinem zweiten Blog Post vorbeischaust! Dieses Mal geht es um das Thema “<strong>Daten</strong>”, und vor allem, welche Arten von Daten gibt es und welche Eigenschaften können diese aufweisen?<br />
+Jetzt fragst du dich sicher: “<em>Wieso sollte ich mich mit etwas langweiligem wie Daten beschäftigen</em>?”. Die Antwort hierfür ist ganz einfach. Genauso wie ein Maurer Ziegel benötigt, sind Data Scientists (wie ja der Name schon sagt :-D) auf Daten angewiesen. Sie sind der grundlegende Rohstoff, mit denen alle Machine Learning Algorithmen “gefüttert” werden und bilden die Informationsgrundlage aus der wir “Schätze” bergen wollen.<br />
+Wir haben uns zwar noch nicht damit befasst, was ein Machine Learning Algorithmus genau macht, aber jeder Algorithmus bekommt grundsätzlich erst mal Daten als Input und wandelt diese dann in Output um. Keine Angst, wenn dir das noch sehr abstrakt vorkommt, die ganze Serie “<strong>KI für alle</strong>” ist darauf ausgelegt, das zu veranschaulichen. Anhand dieser Tatsache wird sehr schnell klar wieso eine gute Grundkenntnis über Daten so essentiell ist. Es gibt nämlich ein Sprichwort unter Data Scientists, welches die Wichtigkeit dieses Artikels sehr gut zusammenfasst: “<strong>Garbage in, Garbage out!</strong>”. Dieses Sprichwort besagt, einfach ausgedrückt, dass du den besten ML-Algorithmus der Welt haben kannst, wenn du ihn aber nur mit “Müll” fütterst, wird er dir auch nur “Müll” zurückgeben. Das heißt für dich, du solltest sehr genau darauf achten welche Daten du verwendest! Zusätzlich wirst du dich die meiste Zeit damit beschäftigen deine Daten auf Vordermann zu bringen :-D. Um das aber zu bewerkstelligen, musst du natürlich erst einmal wissen, was Daten überhaupt sind. Dies bringt mich wieder zur zentralen Frage dieses Artikels:</p>
+<div id="was-sind-daten" class="section level1">
+<h1>Was sind Daten?</h1>
+<p>Um diese Frage zu beantworten, möchte ich zuerst etwas weiter ausholen und dich in ein paar Grundbegriffe einführen. Wie immer halte ich mich dabei an ein Buch, welches ich auch sehr empfehlen kann um deine Statistikkenntnisse generell aufzufrischen : “<strong>Statistik - Der Weg zur Datenanalyse</strong>” von L. Fahrmeir,R. Künstler, I. Pigeot und G. Tutz. Damit du nicht nur mit Fachwörtern überrollt wirst, werde ich das Thema anhand eines Beispiels etwas auflockern. Stell dir dafür vor, du möchtest das Einkaufsverhalten von Kunden im Supermarkt analysieren. Die erste Frage die du klären darfst, ist: “Von wem möchte ich Daten beobachten?” Die Antwort auf diese Frage ist hier natürlich offensichtlich: Die Kunden. Aber es kann auch sein, dass du noch Daten vom betreffenden Supermarkt beobachten willst. Diese “Objekte” (die Kunden und der Supermarkt) werden als sogenannte <strong>Merkmalsträger</strong> bezeichnet, da sie die “Träger” unserer Daten sind. Als nächstes darfst du entscheiden was genau dich an diesen Objekten interessiert. Um auf unser Beispiel zurückzukommen, hier könnte dich z.B. die Dauer des Einkaufs, Anzahl der gekauften Artikel, Bildungsgrad und Geschlecht bei den Kunden und das Sortiment des Supermarktes interessieren. Diese Größen nennen wir <strong>Merkmale</strong> oder auch <strong>Variablen</strong> bzw. <strong>Features</strong>, da dies die Eigenschaften sind, anhand derer wir die Analyse betreiben wollen. Zu guter Letzt notieren wir dann für jeden Kunden, wie lange er im Supermarkt war, wie viele Artikel er gekauft hat usw.. Diese Zahlen werden letztendlich <strong>Merkmalsausprägungen</strong> genannt.</p>
+<p>Zusammengefasst sind Daten die genauen Ausprägungen unserer Merkmale für die einzelnen Träger!</p>
+<p>Keine Angst, wenn dir das etwas abstrakt vorkommt, man kann sich das alles ganz einfach anhand einer Excel-Tabelle veranschaulichen. Hierbei stehen die Zeilen für die einzelnen Merkmalsträger, die Spalten für die Merkmale und die Zahlen in der Tabelle für die Merkmalsausprägungen.</p>
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="/img/Daten_fertig.png" alt="Veranschaulichung der Begriffe anhand einer Excel Tabelle" width="700px" />
+<p class="caption">
+Figure 1: Veranschaulichung der Begriffe anhand einer Excel Tabelle
+</p>
+</div>
+<p>Auch wenn alles unter dem Begriff “Daten” vereint wird, ist dir sicher gleich aufgefallen, dass verschiedene Merkmale komplett unterschiedliche Ausprägungen haben können! So kann die Aufenthaltsdauer jeden beliebigen Wert größer als Null annehmen, wohingegen das Geschlecht nur drei Ausprägungen haben kann. Sicher ist dir auch sofort klar, dass wir bei der Auswertung von Daten Rücksicht auf diese Besonderheiten nehmen dürfen. Genau deshalb teilen Data Scientists die Merkmale in bestimmte Typen ein, die ich dir im Folgenden vorstelle.</p>
+<div id="merkmalstypen" class="section level2">
+<h2>Merkmalstypen</h2>
+<div id="stetige-vs.diskrete-merkmale" class="section level3">
+<h3>Stetige vs. diskrete Merkmale</h3>
+<p>Die einfachste Unterteilunng basiert auf der Frage, wie viele mögliche Ausprägungen ein Merkmal besitzen kann. Also welche Werte ich potentiell beobachten kann. Sind dies endlich viele (oder abzählbar unendlich viele) so nennen wir das Merkmal <strong>diskret</strong>. Jetzt denkst du bestimmt: “<em>Was meint der denn mit abzählbar unendlich, entweder gibt es endlich oder unendlich viele Möglichkeiten</em>?” Leider stimmt das nicht ganz. In der Statistik unterscheidet man nämlich noch einmal im unendlichen Fall. <em>Abzählbar unendlich</em> meint hier, es gibt zwar unendlich viele Möglichkeiten, aber man kann, wenn man sich zwei Zahlen “rauspickt” immer noch von der Kleineren zur Größeren zählen. Am besten stellt man sich das anhand aller natürlichen Zahlen (also 1,2,3, usw.) vor. Ich kann mir hier einfach zwei Zahlen aussuchen. z.B. fünf und 1000, und dann ab der fünf bis zur 1000 zählen. Ein konkretes abzählbar unendliches Merkmal wäre die Anzahl an Kindern. Rein theoretisch kann ich auch unendlich viele Kinder haben, aber ich kann sie immer “abzählen” (also ich hoffe es wenigstens :-D). Im Gegensatz dazu meint <strong>stetig</strong>, dass man nicht einmal mehr zwei Zahlen “rauspicken” und dann von der kleineren zur größeren zählen kann. Dafür betrachte das Merkmal “Dauer des Aufenthalts im Supermarkt” und versuche von einer Stunde zu zwei Stunden zu zählen. Ich kann dir gleich sagen, dass wirst du nicht schaffen ;). Versuchen wir es Mal gemeinsam: 1 Stunde, 1,1 Stunden, 1,11 Stunden usw.. Du siehst wir kommen nicht einmal bis zu zwei Stunden.</p>
+</div>
+<div id="skalenniveaus" class="section level3">
+<h3>Skalenniveaus</h3>
+<p>Die zweite Unterteilung ist gleichzeitig die wichtigste für Data Scientists, da sie grundlegend vorgibt welche Algorithmen benutzt bzw. wie Daten aufbereitet werden sollten. Diese Unterscheidung bezieht sich auf sogenannte “<em>Skalen</em>” auf denen die Daten gemessen werden.<br />
+Hierfür betrachten wir wieder unsere Beispielsmerkmale von oben und beginnen mit dem Geschlecht. Das Geschlecht kann die Ausprägungen “männlich”, “weiblich” und “divers” annehmen. Du siehst sofort, dass sind keine Zahlen, sondern Namen bzw. Kategorien, die keiner speziellen Rangordnung folgen. Wir können also nicht sagen “weiblich” ist mehr als “männlich” etc., das ergibt keinen Sinn. Diese Art von Merkmalen nennen wir <strong>nominalskaliert</strong> bzw. <strong>nominale Merkmale</strong>. Sollten die Ausprägungen eine Rangordnung besitzen, wie z.B. bei Bildungsgrad (Realschulabschluss ist ein höherer Abschluss als ein Mittelschulabschluss usw.), jedoch immer noch Namen bzw. Kategorien repräsentieren, nennen wir sie <strong>ordinalskaliert</strong> oder <strong>ordinale Merkmale</strong>. Alle anderen Merkmale nennen wir <strong>metrischskaliert</strong> bzw. <strong>metrische Merkmale</strong> (hier gibt es auch noch eine feinere Unterteilung, die aber für die meisten Probleme keine Rolle spielt und ich will dich nicht übermäßig mit Fachbegriffen überrollen ;-)).</p>
+</div>
+<div id="qualitative-vs.quantitative-merkmale" class="section level3">
+<h3>Qualitative vs. quantitative Merkmale</h3>
+<p>Zu guter Letzt kommen wir zu einer Unterteilung, die du sehr häufig im Machine Learning Kontext sehen wirst, und die beide vorherigen Unterscheidungen miteinander verbindet.<br />
+Bei dieser bezeichnen wir Merkmale, die endlich viele Ausprägungen besitzen und höchstens ordinalskaliert sind als <strong>qualitativ</strong> oder <strong>kategorial</strong>. Im Gegensatz dazu nennen wir alle anderen Merkmale <strong>quantitativ</strong>.</p>
+<p>So, da du nun einen guten Überblick darüber hast, was Daten sind, möchte ich noch auf eine Charakterisierung von Daten eingehen, die sehr geläufig im Machine Learning Bereich ist. Auch Jonathan hat sie in seinem Einführungsvideo schon verwendet um die Vorteile von Deep Learning genauer zu erklären.</p>
+</div>
+</div>
+<div id="strukturierte-vs.unstrukturierte-daten" class="section level2">
+<h2>Strukturierte vs. unstrukturierte Daten</h2>
+<p>Du erinnerst dich, bis jetzt waren alle Unterscheidungen, die wir getroffen haben, bezüglich der Eigenschaften von Merkmalen. Die Einteilung in strukturiert vs. unstrukturiert geht nun aber einen ganz anderen Weg. Wir sprechen von <strong>strukturierten</strong> Daten, wenn wir klar definierte Merkmale vorfinden. Stell dir das so vor, dass du bei strukturierten Daten ganz genau weißt welche Merkmale dich interessieren und du deshalb auch genau diese erhoben hast. Oder noch einfacher ausgedrückt, du könntest strukturierte Daten ganz einfach in eine Excel-Tabelle eintragen. Dabei wären die Zeilen wieder die Merkmalsträger und die Spalten würden die Merkmale wiederspiegeln (also genau wie in der Abbildung oben). Wie dir sicher aufgefallen ist, sind die Daten in unserem Supermarkt-Beispiel strukturiert, da wir ganz klar definierte Merkmale beobachten, z.B. das Geschlecht jedes Kunden.<br />
+<strong>Unstrukturierte</strong> Daten hingegen verfügen eben gerade nicht über klar definierte Merkmale. Was sind nun Beispiele für unstrukturierte Daten? Stell dir vor, der Supermarktleiter lässt seine Kunden nach dem Einkauf einen Feedbackbogen ausfüllen, in dem sie ihre Einkaufserfahrung beschreiben sollen. Der geschriebene Text an sich verfügt über keine vorher definierten Merkmale! Oftmals dürfen wir als Data Scientists uns dann Features “selber bauen”, das nennt man dann “<strong>Feature Engineering</strong>”. Um auf unser Beispiel mit dem Feedbackbogen zurückzukommen, wir könnten hier zum Beispiel die Anzahl bestimmter Wörter wie “gut”, “schlecht” und ihre Position im Satz als Feature verwenden. Weitere typische Beispiele für unstrukturierte Daten sind Bilder und Audioaufnahmen.</p>
+<p>So ich hoffe du hast nun eine gute Vorstellung von Daten bekommen und weißt wie man sie gliedern kann! Ich werde immer mal wieder, wenn ich verschiedene ML-Algorithmen vorstelle, darauf eingehen auf was du genau achten darfst wenn du diese Algorithmen mit verschiedenen Datentypen verwendest.</p>
+<p>Wie immer hoffe ich, dir hat dieser Post gefallen und der nächste Post ist dann wieder als Ergänzung zu dem Video über Neuronale Netze gedacht. Ich würde mich sehr über dein Feedback bzw. über Fragen in den Kommentaren freuen!</p>
+<p>Bis zum nächsten Mal, dein Alex :)</p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//alexsdatascienceblog.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-141455230-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

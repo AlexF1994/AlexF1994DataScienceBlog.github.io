@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Alex&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,8 @@
       
       <guid>/2019/06/02/ki-f%C3%BCr-alle-was-sind-daten/</guid>
       <description>Hallo zusammen,
-schön dass du auch zu meinem zweiten Blog Post vorbeischaust! Dieses Mal geht es um das Thema Daten und vor Allem, welche Arten von Daten gibt es und welche Eigenschaften können diese wiederum aufweisen? Danach werde ich noch kurz auf den Unterschied zwischen “Deep”- und “Shallow Learning” eingehen und erklären, welches von beiden für welche Art von Daten am geeignetsten ist.
-Jetzt fragst du dich sicher: “Wieso sollte ih mich mit etwas langweiligem wie Daten beschäftigen?</description>
+schön dass du auch zu meinem zweiten Blog Post vorbeischaust! Dieses Mal geht es um das Thema “Daten”, und vor allem, welche Arten von Daten gibt es und welche Eigenschaften können diese aufweisen?
+Jetzt fragst du dich sicher: “Wieso sollte ich mich mit etwas langweiligem wie Daten beschäftigen?”. Die Antwort hierfür ist ganz einfach. Genauso wie ein Maurer Ziegel benötigt, sind Data Scientists (wie ja der Name schon sagt :-D) auf Daten angewiesen.</description>
     </item>
     
     <item>
