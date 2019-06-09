@@ -1,8 +1,8 @@
 ---
 lang: de-DE
-title: 'KI für alle: Was sind Daten?'
+title: 'Was sind Daten?'
 author: "Alexander Fottner"
-date: 2019-06-02
+date: 2019-06-09
 output: html_document
 ---
 
